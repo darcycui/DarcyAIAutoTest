@@ -1,0 +1,19 @@
+{
+  "name": "midscene",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@midscene/android": "latest",
+    "dotenv": "^16.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "ts-node index.ts"
+  }
+}
