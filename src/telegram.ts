@@ -24,6 +24,8 @@ import {
     const agent = new AndroidAgent(device, {
       aiActContext:
         'If any location, permission, user agreement, etc. popup, click agree.',
+      screenshotShrinkFactor: 2,
+
     });
     // 连接设备
     await device.connect();
@@ -41,6 +43,6 @@ import {
     log(agent._unstableLogContent());  
   }
   
-  Promise.resolve(
-    (telegram)()
-  );
+  // Promise.resolve(
+  //   (telegram)()
+  // );
