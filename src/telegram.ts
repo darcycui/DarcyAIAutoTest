@@ -16,7 +16,9 @@ import {
       throw new Error('No connected Android devices found');
     }
     // 创建设备对象 emulator-5554
-    const device = new AndroidDevice(devices[0].udid, {
+    const uuid = "RFCW8014R4E"; // devices[0].udid
+    // const uuid = "emulator-5554"; // devices[0].udid
+    const device = new AndroidDevice(uuid, {
       autoDismissKeyboard: false,
     });
 
