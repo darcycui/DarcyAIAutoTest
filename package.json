@@ -17,8 +17,8 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "ts-node src/index.ts",
-    "build-debug": "bun build ./src/index.ts --outdir ./out --target=node",
-    "build-release": "bun build ./src/index.ts --outdir ./out --target=node --minify && npx terser ./out/index.js --compress --mangle -o ./out/index.min.js"
+    "build-debug": "bun build ./src/index.ts --outdir ./out --target=node", 
+    "build-release": "bun build ./src/index.ts --outdir ./out --target=node --minify && npx terser ./out/index.js --compress --mangle -o ./out/index.min.js" 
   
   }
 }
