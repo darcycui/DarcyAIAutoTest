@@ -16,8 +16,8 @@ import {
       throw new Error('No connected Android devices found');
     }
     // 创建设备对象 emulator-5554
-    const uuid = "RFCW8014R4E"; // devices[0].udid
-    // const uuid = "emulator-5554"; // devices[0].udid
+    // const uuid = "RFCW8014R4E"; // devices[0].udid
+    const uuid = "5ENDU19929000888"; // devices[0].udid
     const device = new AndroidDevice(uuid, {
       autoDismissKeyboard: false,
     });
@@ -44,7 +44,3 @@ import {
     await agent.aiAssert("There is a text 'Your phone number' on top");
     log(agent._unstableLogContent());  
   }
-  
-  // Promise.resolve(
-  //   (telegram)()
-  // );
