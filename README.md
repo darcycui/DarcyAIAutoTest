@@ -43,3 +43,8 @@ bun install
 ```bash
 bun run index.ts
 ```
+
+## 参考文档
+[Midscene.js官网文档](https://midscenejs.com/zh/introduction)
+
+[Midscene.js Github仓库](https://github.com/web-infra-dev/midscene)
